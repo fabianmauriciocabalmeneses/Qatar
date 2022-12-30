@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./src/img/Fondo\ Mundial\ 2022\ De\ Qatar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #F1E7D0;
+}
+
+
+.container{
+    height: 100%;   
+}
+
+.flags1 , .flags2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flags{
+    margin: 12px;
+}
+.flags img{
+    width: 250px;
+    height: 150px;
+}
+

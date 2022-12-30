@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../src/img/Fondo\ Mundial\ 2022\ De\ Qatar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tryAgain{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 200px;
+
+}
+
+.btn{
+    background-color: aquamarine;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: aquamarine;
+    font-size: 15px;
+    font-weight: bold;
+       
+}
+
+.cardsContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards{
+    margin-right: 12px;
+    margin-top: 50px;
+    outline: 1px solid #F1E7D0;
+    height: 480px;
+    border-radius: 8px;
+
+
+}
+
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #F1E7D0;
+    text-transform: uppercase;
+}
+
+.img img{
+    width:500px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.text{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #F1E7D0;
+   
+    
+}
+
+.maintitle{
+    text-transform: uppercase;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.btnSumit1{
+    display: flex;
+    justify-content: center;
+}
+
+.btmSubmit{
+    background-color: aquamarine;
+    width: 250px;
+    height: 70px;
+    border-radius: 30px;
+    border-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 80px;
+    text-transform: uppercase;
+    padding: 8PX;
+    cursor: pointer;
+    
+}
